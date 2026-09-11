@@ -90,7 +90,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .section-heading { max-width: 720px; margin-bottom: 34px; }
 .section-heading.compact { max-width: 660px; }
 .section-heading h2, .contact-panel h2 { margin: 0; font-size: clamp(2rem, 4.2vw, 3.35rem); line-height: 1.12; letter-spacing: -.04em; text-wrap: balance; }
-.route-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.route-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .route-card { display: grid; grid-template-columns: auto 1fr auto; gap: 20px; align-items: start; min-height: 230px; padding: 30px; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-md); box-shadow: 0 16px 46px rgba(41, 40, 86, .06); text-decoration: none; }
 .route-card:hover { color: var(--ink); border-color: #cccbea; transform: translateY(-3px); box-shadow: 0 22px 56px rgba(41, 40, 86, .1); }
 .route-number { display: grid; place-items: center; width: 42px; height: 42px; color: var(--brand-dark); background: var(--brand-soft); border-radius: 12px; font-size: .78rem; font-weight: 800; }

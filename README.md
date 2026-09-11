@@ -4,6 +4,7 @@
 
 - 隐私政策：`/privacy/`
 - 用户支持：`/support/`
+- 订阅与使用条款：`/terms/`
 - 静态站点文件：`dist/`
 
 站点通过 GitHub Actions 自动部署到 GitHub Pages。推送到 `main` 分支后会触发发布。
