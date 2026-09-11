@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://weizhichao1027-collab.github.io/ai-schedule-assistant-support/sitemap.xml
+Sitemap: https://qishanlabs.com/sitemap.xml

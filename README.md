@@ -1,16 +1,17 @@
-# 记一下 JotIt 官方网站
+# 祁杉 Qishan Labs 公司官网
 
-记一下（JotIt）的官方隐私政策与用户支持网站。
+上海祁杉文化传播有限公司的公司与产品网站。
 
-- 隐私政策：`/privacy/`
-- 用户支持：`/support/`
-- 订阅与使用条款：`/terms/`
-- 静态站点文件：`dist/`
+- 公司首页：`/`
+- 记一下 JotIt 产品页：`/products/jotit/`
+- 记一下隐私政策：`/privacy/`
+- 记一下用户支持：`/support/`
+- 记一下订阅与使用条款：`/terms/`
+- 工作邮箱：`weizhichao@qishanlabs.com`
+- 公司域名：`qishanlabs.com`
 
-站点通过 GitHub Actions 自动部署到 GitHub Pages。推送到 `main` 分支后会触发发布。
+保留原有支持和政策路径，供已提交的 App 元数据及 App 内链接继续使用。以后新增 App 时，在 `products/` 下添加独立产品页，并为该产品提供自己的支持和政策页面。
 
-本地预览：
+静态文件位于 `dist/`，推送 GitHub `main` 分支会通过 Actions 部署至 GitHub Pages。Sites 项目身份保留在 `.openai/hosting.json`。
 
-```bash
-python3 -m http.server 4173 --directory dist
-```
+本地预览：`python3 -m http.server 4173 --directory dist`
