@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f7fc">
   <title>Privacy policy | JotIt</title>
-  <meta name="description" content="See what stays on your device, what optional online AI sends, and how you can control your information.">
+  <meta name="description" content="See what stays on your device, what optional online AI and usage analytics send, and how you can control your information.">
   <link rel="canonical" href="https://qishanlabs.com/en/privacy/">
   <link rel="alternate" hreflang="en" href="https://qishanlabs.com/en/privacy/">
   <link rel="alternate" hreflang="zh-Hans" href="https://qishanlabs.com/privacy/">
@@ -36,8 +36,8 @@
     <section class="document-hero">
       <p class="eyebrow">JotIt by Qishan Lab</p>
       <h1>Privacy policy</h1>
-      <p class="document-lede">See what stays on your device, what optional online AI sends, and how you can control your information.</p>
-      <div class="document-meta"><span>Version 2.0</span><span>Effective: September 20, 2026</span><span>JotIt for iOS</span></div>
+      <p class="document-lede">See what stays on your device, what optional online AI and usage analytics send, and how you can control your information.</p>
+      <div class="document-meta"><span>Version 2.1</span><span>Effective: September 21, 2026</span><span>JotIt for iOS</span></div>
     </section>
 
     <article class="document-card legal-copy">
@@ -56,6 +56,7 @@
           <li><strong>Online AI:</strong> after your explicit consent, submitted text, speech transcripts, OCR text and necessary summaries are sent first to our encrypted relay and then to the DeepSeek API to parse requests and generate responses or suggestions.</li>
           <li><strong>Subscriptions and credits:</strong> Apple-signed transaction proofs, product and original transaction identifiers, purchase and expiry dates, credit periods and usage counts validate Pro and calculate balances. Proofs go to our private verification service, not to the AI model.</li>
           <li><strong>Credits and security:</strong> App Attest identifiers and proofs, request digests, network addresses and results verify the app and requests, limit rates and prevent replay or abuse. They are not sent to the AI model.</li>
+          <li><strong>Optional usage analytics:</strong> screen views, feature use and outcomes, app version, language, a random session identifier and a separately siloed App Attest verification identifier are processed only after you enable analytics.</li>
         </ul>
         <p>No app account is required. We do not purchase personal information from contact lists, advertising platforms or data brokers.</p>
       </section>
@@ -66,14 +67,20 @@
       </section>
 
       <section>
-        <h2><span>04</span>Optional online AI</h2>
+        <h2><span>04</span>Optional usage analytics</h2>
+        <p>Usage analytics is off by default. If you enable it, the app sends only fixed-allowlist fields through our encrypted service to measure feature adoption, flow completion and stability. Analytics never includes calendar entries, tasks, accounts, amounts, locations, images, audio, OCR text or AI conversation content.</p>
+        <p>Opt-in events are normally retained for 30 days. A separately siloed pseudonymous identifier links events from the same app installation to measure active devices and retention. It is not used to identify a real-world person, for advertising, for cross-app or cross-website tracking, or combined with other companies’ data. You can turn usage analytics off at any time in Settings; once disabled, no new usage events are queued or sent.</p>
+      </section>
+
+      <section>
+        <h2><span>05</span>Optional online AI</h2>
         <p>Online AI is off by default. Only after you see the prominent disclosure and tap “Agree &amp; Send” does the app, when you initiate a request, send necessary text over HTTPS first to the encrypted relay operated by Shanghai Qishan Cultural Communication Co., Ltd. and then to the API of third-party AI provider Hangzhou DeepSeek Artificial Intelligence Co., Ltd. (DeepSeek).</p>
         <p>Sent content may include text you submit, speech transcripts, on-device OCR text and summaries you permit, such as counts and category totals. When you explicitly request details, the app may send necessary event dates, times, titles, locations and categories and expense dates, titles, amounts and categories within the query scope. Original images and the complete local databases are never sent.</p>
         <p>Apple App Attest validates app and request integrity. Our relay processes verification key identifiers, Apple-signed attestations, request digests, counters and network addresses for rate limits and replay and abuse prevention. These are not used for advertising tracking and are not sent to DeepSeek.</p>
       </section>
 
       <section>
-        <h2><span>05</span>Third-party services</h2>
+        <h2><span>06</span>Third-party services</h2>
         <p>Online parsing and analysis use the DeepSeek API. The data recipient is <strong>Hangzhou DeepSeek Artificial Intelligence Co., Ltd.</strong> (DeepSeek). The corresponding registered generative AI service is 求索对话 DeepSeek Chat, filing <strong>Beijing-DeepseekChat-202404280016</strong>.</p>
         <p>Under its <a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html">Privacy Policy</a> and open-platform terms, DeepSeek may process and retain submitted inputs in the People’s Republic of China and use them to provide, secure, develop and improve its services and models. Do not submit sensitive information you do not want a third party to process.</p>
         <p>We share user data only when the third party provides the same or an equivalent level of protection required by this policy and applicable rules. We reviewed DeepSeek’s public Privacy Policy and open-platform terms and confirm that this integration is operated on that basis. If this condition is no longer met, we will stop sharing or change providers. We periodically review the applicable policies and terms.</p>
@@ -82,18 +89,20 @@
       </section>
 
       <section>
-        <h2><span>06</span>Storage, retention and security</h2>
+        <h2><span>07</span>Storage, retention and security</h2>
         <p>Schedules, expenses, profiles, preferences and backups are primarily stored on your device. We use access controls, transport encryption and data minimization.</p>
-        <p>Our own relay does not log AI prompts, response bodies or original images; DeepSeek’s processing and retention of received content follow the policies described in section 5. Anonymous credit counts, request digests and duplicate-operation markers are kept for up to 45 days. Operational logs without message bodies are generally kept for 30 days. Signed transaction proofs are not written to the credit database. App Attest public keys, counters and attestation receipts remain while the verification system is in use.</p>
+        <p>Our own relay does not log AI prompts, response bodies or original images; DeepSeek’s processing and retention of received content follow the policies described in section 6. Anonymous credit counts, request digests and duplicate-operation markers are kept for up to 45 days. Operational logs without message bodies are generally kept for 30 days. Signed transaction proofs are not written to the credit database. App Attest public keys, counters and attestation receipts remain while the verification system is in use.</p>
+        <p>Usage analytics events are processed only after you opt in and are normally retained for 30 days. The analytics identifier is purpose-siloed and is not used for advertising or combined with other companies’ data.</p>
         <p>Deleting records, clearing local data or uninstalling removes relevant device data according to iOS behavior. You manage exported backups yourself. Uninstalling does not automatically delete older anonymous server security records. Contact us about processing such records.</p>
       </section>
 
       <section>
-        <h2><span>07</span>Your choices and rights</h2>
+        <h2><span>08</span>Your choices and rights</h2>
         <ul>
           <li>View, correct or delete schedules, expenses, nicknames and avatars.</li>
           <li>Export files and restore backups.</li>
           <li>Clear AI conversations, disable online AI or local-data analysis.</li>
+          <li>Turn optional usage analytics on or off at any time in Settings. Once disabled, no new usage events are queued or sent.</li>
           <li>Manage or cancel Pro and restore valid purchases.</li>
           <li>Withdraw notification, microphone, speech recognition, camera or photo permissions.</li>
           <li>Contact us to request access, deletion, restriction of processing or an opt-out from model training for data processed by the third party. We handle requests under applicable law and coordinate with DeepSeek when needed.</li>
@@ -102,23 +111,23 @@
       </section>
 
       <section>
-        <h2><span>08</span>Children</h2>
+        <h2><span>09</span>Children</h2>
         <p>The app is not specifically designed for children. Children under 14 should use it with parental or guardian consent and guidance.</p>
       </section>
 
       <section>
-        <h2><span>09</span>Website information</h2>
+        <h2><span>10</span>Website information</h2>
         <p>The privacy and support websites are static pages without product analytics, advertising tracking or account login. Hosting providers may process routine network logs for operation and security.</p>
       </section>
 
       <section>
-        <h2><span>10</span>Contact</h2>
+        <h2><span>11</span>Contact</h2>
         <p>Operator: Shanghai Qishan Cultural Communication Co., Ltd. (上海祁杉文化传播有限公司).</p>
         <p>Primary email: <a href="mailto:weizhichao@qishanlabs.com">weizhichao@qishanlabs.com</a>. Backup email: <a href="mailto:281916057@qq.com">281916057@qq.com</a>.</p>
       </section>
 
       <section>
-        <h2><span>11</span>Policy updates</h2>
+        <h2><span>12</span>Policy updates</h2>
         <p>We update this policy and its version and date when features, processing or applicable rules change. If you disagree, stop using the relevant features or delete the app.</p>
       </section>
     </article>
