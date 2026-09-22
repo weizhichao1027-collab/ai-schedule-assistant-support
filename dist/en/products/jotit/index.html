@@ -114,8 +114,10 @@
         ],
         "author": {"@id": "https://qishanlabs.com/#organization"},
         "publisher": {"@id": "https://qishanlabs.com/#organization"},
-        "privacyPolicy": "https://qishanlabs.com/en/privacy/",
-        "termsOfService": "https://qishanlabs.com/en/terms/"
+        "subjectOf": [
+          {"@type": "WebPage", "name": "Privacy Policy", "url": "https://qishanlabs.com/en/privacy/"},
+          {"@type": "WebPage", "name": "Terms of Use", "url": "https://qishanlabs.com/en/terms/"}
+        ]
       },
       {
         "@type": "Organization",

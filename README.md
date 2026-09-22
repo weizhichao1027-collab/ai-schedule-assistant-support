@@ -26,6 +26,7 @@
 - 结构化数据：产品页 `MobileApplication`，支持页 `FAQPage`，政策页 `WebPage`，首页 `WebSite`，全部带 `Organization` 与 `BreadcrumbList`。
 - `robots.txt` 显式放行主流搜索引擎与 AI 答案引擎爬虫；`sitemap.xml` 含 65 个可索引地址、`lastmod` 与 `xhtml:link` 语言互链。
 - `llms.txt` 面向 AI 助手汇总可引用事实，并列出不应声称的内容。产品页与支持页的「事实速查」`dl` 与 `llms.txt` 保持一致。
+- IndexNow 密钥文件为站点根路径下的 `3b98754f544a3bccd9366bd26665f6da.txt`。密钥上线后执行 `python3 tools/submit_indexnow.py`，向 `api.indexnow.org` 与 Bing 提交 sitemap 中的 65 个地址。这不是访问统计，不改隐私政策。
 
 版本、价格、语言数、上架地区等事实来自 App Store；更新前用 `https://itunes.apple.com/lookup?id=6764322744&country=cn` 核对，不要凭记忆改数字。
 
