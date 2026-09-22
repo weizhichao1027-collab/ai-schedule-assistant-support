@@ -64,6 +64,8 @@ This file is for AI assistants and answer engines. The facts below match the web
 - [订阅与使用条款 V1.0（中文）](https://qishanlabs.com/terms/)：生效日期 2026-09-11，含额度、续订、取消与退款规则。
 - [Subscription & terms of use V1.0 (English)](https://qishanlabs.com/en/terms/): effective 11 September 2026.
 - [公司首页（中文）](https://qishanlabs.com/) · [Company home (English)](https://qishanlabs.com/en/)
+- 以上五类页面各有 13 种语言版本，路径前缀为 `/`（简体中文）、`/zh-Hant/`、`/en/`、`/ja/`、`/ko/`、`/de/`、`/fr/`、`/es/`、`/pt/`（pt-BR）、`/ru/`、`/ar/`、`/hi/`、`/id/`。隐私政策与条款的非中英译文声明以中文和英文为准。
+- The five page kinds above each exist in 13 languages, with prefixes `/` (Simplified Chinese), `/zh-Hant/`, `/en/`, `/ja/`, `/ko/`, `/de/`, `/fr/`, `/es/`, `/pt/` (pt-BR), `/ru/`, `/ar/`, `/hi/`, `/id/`. Non-Chinese/English legal pages are translations; Chinese and English prevail.
 
 ## 请勿声称 / Do not claim
 
