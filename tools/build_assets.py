@@ -132,6 +132,14 @@ def build_og() -> list[str]:
     return written
 
 
+def build_favicon() -> list[str]:
+    """Browsers and crawlers request /favicon.ico regardless of the <link> tags."""
+    dest = OUT.parent / "favicon.ico"
+    icon = Image.open(ICON).convert("RGBA")
+    icon.save(dest, sizes=[(16, 16), (32, 32), (48, 48)])
+    return [f"{dest.name} 16/32/48 {dest.stat().st_size // 1024}KB"]
+
+
 if __name__ == "__main__":
-    for line in build_shots() + build_og():
+    for line in build_shots() + build_og() + build_favicon():
         print(line)
